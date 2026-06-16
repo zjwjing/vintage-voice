@@ -11,6 +11,16 @@ case-insensitive; leading capitalization is preserved.
 import re
 
 LEXICON = {
+    # ---- greetings / fast-speech elisions (drop the over-articulated tail) ----
+    # Cajun fast speech swallows the -ment nasal: "comment ça va" said quick
+    # lands on top of the surname "Comeaux" (kɔ-mo). Respell to elide so
+    # CosyVoice blends it instead of enunciating the textbook ko-MAH(n).
+    "comment ça va":  "com' ça va",
+    "comment ca va":  "com' ça va",   # ascii-typed variant
+    "quand même":     "quan mêm",     # Cajun "ka-MEM" = anyhow / anyway / all the same
+    "quand meme":     "quan mêm",     # ascii-typed variant
+    "comme ci comme ça": "comme ci comme ça",  # kom-see-kom-sah = so-so / middling
+    "comme ci comme ca": "comme ci comme ça",  # ascii-typed variant
     # ---- place-names: parishes, towns, bayous (the tricky, non-French ones) ----
     "Opelousas":    "Opéloussa",
     "Atchafalaya":  "Atchafalaïa",
@@ -77,6 +87,26 @@ LEXICON = {
     "nonc":         "nonk",
     "catin":        "catin",
     "capon":        "capon",
+    "couche-couche":"couche-couche",   # koosh-koosh — fried cornmeal breakfast
+    "coush-coush":  "couche-couche",
+    "cooshcoosh":   "couche-couche",
+    # ---- old Cajun given names (ear-tunable) ----
+    "Aleda":        "Aléda",
+    "Adalaya":      "Adalaïa",
+    "Sédonie":      "Sédoni",
+    "Sedonie":      "Sédoni",
+    "Eulalie":      "Eulalie",
+    "Octave":       "Octave",
+    "Adelard":      "Adélar",
+    "Ozémé":        "Ozémé",
+    "Augustin":     "Augustin",
+    "Remi":         "Rémi",
+    "Attakapas":    "Atakapa",
+    "Acadie":       "Acadie",
+    # ---- Sophia's own name, the Cajun way (ear-tunable) ----
+    "Sophia Elya":  "Sofia Élia",
+    "Elya":         "Élia",
+    "Sophia":       "Sofia",
 }
 
 def _replace(m):
