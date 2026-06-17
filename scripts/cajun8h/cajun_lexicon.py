@@ -175,10 +175,10 @@ LEXICON = {
     "gardez-moi ça":"gadez don",       # fast Cajun: "look at that!" -> ga-DAY don
     "garde-moi ça": "gadez don",
     "garde moi ça": "gadez don",
-    "cher":         "sha",             # term of endearment — Cajun says "sha", not "shair"
-    "chère":        "sha",
-    "chere":        "sha",             # ascii-typed variant
-    "Cher":         "Sha",
+    "cher":         "cha",             # term of endearment — "cha" (a as in 'at'), not "shah"
+    "chère":        "cha",
+    "chere":        "cha",             # ascii-typed variant
+    "Cher":         "Cha",
     # ---- old Cajun given names (ear-tunable) ----
     "Aleda":        "Aléda",
     "Adalaya":      "Adalaïa",
