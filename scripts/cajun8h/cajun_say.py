@@ -34,7 +34,7 @@ def main():
     print(f"loading epoch-2 Cajun model on {'GPU' if on_gpu else 'CPU'}...", flush=True)
     model = CosyVoice2(MODEL, load_jit=False, load_trt=False, fp16=on_gpu)
     import subprocess
-    for i, out in enumerate(model.inference_zero_shot(text, REF_TEXT, REF_AUDIO, stream=False, speed=0.92)):
+    for i, out in enumerate(model.inference_zero_shot(text, REF_TEXT, REF_AUDIO, stream=False, speed=0.95)):
         path = f"{OUT}/{name}.wav" if i == 0 else f"{OUT}/{name}_{i}.wav"
         torchaudio.save(path, out["tts_speech"], model.sample_rate)
         # loudness boost — CosyVoice output is mastered quiet (~-26 LUFS); bring it up

@@ -75,13 +75,13 @@ LEXICON = {
     "couillon":     "couyon",
     "couillons":    "couyons",
     "lagniappe":    "lagnappe",
-    "fais-do-do":   "fé dô-dô",          # fay-DOH-doh — the dance (+ "go to sleep" to the kids)
-    "fais do-do":   "fé dô-dô",
-    "fais do do":   "fé dô-dô",
-    "fais dodo":    "fé dô-dô",
-    "fait do do":   "fé dô-dô",
-    "fait do-do":   "fé dô-dô",
-    "faisdodo":     "fé dô-dô",
+    "fais-do-do":   "fé dôh-dôh",          # fay-DOH-doh — the dance (+ "go to sleep" to the kids)
+    "fais do-do":   "fé dôh-dôh",
+    "fais do do":   "fé dôh-dôh",
+    "fais dodo":    "fé dôh-dôh",
+    "fait do do":   "fé dôh-dôh",
+    "fait do-do":   "fé dôh-dôh",
+    "faisdodo":     "fé dôh-dôh",
     "à soir":       "à soi",            # ah-SWAH — "tonight" (Cajun softens/drops the R)
     "a soir":       "à soi",
     "asoir":        "à soi",
