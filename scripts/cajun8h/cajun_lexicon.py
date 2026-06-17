@@ -75,7 +75,36 @@ LEXICON = {
     "couillon":     "couyon",
     "couillons":    "couyons",
     "lagniappe":    "lagnappe",
-    "fais-do-do":   "fé-dodo",
+    "fais-do-do":   "fé dodo",          # fay-DOH-doh — the dance (+ "go to sleep" to the kids)
+    "fais do-do":   "fé dodo",
+    "fais do do":   "fé dodo",
+    "fais dodo":    "fé dodo",
+    "fait do do":   "fé dodo",
+    "fait do-do":   "fé dodo",
+    "faisdodo":     "fé dodo",
+    "ti bébé":      "ti bébé",          # tee-bay-BAY — little baby (Cajun 'ti' = petit)
+    "ti bebe":      "ti bébé",
+    "t'bébé":       "ti bébé",
+    "t'bebe":       "ti bébé",
+    "tit bébé":     "ti bébé",
+    # Cajun diminutive 'tit (from petit) = "TEET" (hard t) -> respell "tite"
+    "ti fille":     "tite fille",       # teet-FEE — little girl
+    "tit fille":    "tite fille",
+    "'tit fille":   "tite fille",
+    "teet fille":   "tite fille",
+    "ti garçon":    "tite garçon",      # teet-gar-SOHN — little boy
+    "tit garçon":   "tite garçon",
+    "'tit garçon":  "tite garçon",
+    "teet garçon":  "tite garçon",
+    "tit enfant":   "tite enfant",
+    "teet":         "tite",             # standalone Cajun diminutive
+    # Cajun-English code-switch: t'boy / t'girl (ti-boy, ti-girl)
+    "t'boy":        "tite boy",
+    "ti-boy":       "tite boy",
+    "teet boy":     "tite boy",
+    "t'girl":       "tite girl",
+    "ti-girl":      "tite girl",
+    "teet girl":    "tite girl",
     "bourrée":      "bourré",
     "gris-gris":    "gri-gri",
     "étouffée":     "étouffé",
