@@ -58,6 +58,7 @@ an endangered heritage language, finetuned to an intelligible voice on a single
 8 GB consumer GPU. We're extending the open method to other endangered languages,
 **consent-first and community-led** (Indigenous data sovereignty: OCAP® / CARE).
 
+- 🔊 **[Hear Sophia speak Cajun French](https://elyanlabs.ai/vintage-voice.html)** — live demo: family heritage clips + type your own phrase and hear it spoken
 - 🤝 **[Partner with us](https://github.com/Scottcjn/vintage-voice/issues/182)** — community-led endangered-language preservation ([roadmap](docs/ENDANGERED_LANGUAGES.md))
 - 💰 **Open RTC bounties** — contribute and earn:
   [new voice profile (150)](https://github.com/Scottcjn/vintage-voice/issues/177) ·
