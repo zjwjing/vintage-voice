@@ -171,7 +171,7 @@ def main():
     parser.add_argument("--max-duration", type=float, default=10.0, help="Max audio seconds (15s original, 10s for 8GB)")
     parser.add_argument("--device", default="cuda:0")
     parser.add_argument("--save-every", type=int, default=5)
-    parser.add_argument("--mixed-precision", action="store_true", default=True)
+    parser.add_argument("--mixed-precision", action="store_true", default=False)
     parser.add_argument("--num-workers", type=int, default=2)
     args = parser.parse_args()
 
